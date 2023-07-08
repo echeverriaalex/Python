@@ -3,9 +3,9 @@ escala = input("Es Fahrenheit(F) o es Celsius(C) ? : ").lower()
 
 if escala == "f":
     celsius = (temperatura - 32) * 5/9
-    print(celsius)
+    print("La temperatura ", temperatura, "ºF equivale a ", celsius , "ºC (grados Celsius)")
 elif escala == "c":
     fahrenheit = temperatura * 1.8 + 32
-    print(fahrenheit)
+    print("La temperatura ", temperatura, "ºC equivale a ", fahrenheit, "ºF (grados Fahrenheit)")
 else:
-    print("Escala incorrecta")
+    print("Error: la escala es incorrecta, reintente con ingresar F o C")
